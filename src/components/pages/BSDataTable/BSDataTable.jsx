@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import MainWrapper from '../../layout/MainWrapper'
 import SideBar from '../../layout/SideBar'
 import Header from '../../layout/Header'
-import DataMainSection from './BSDatableMain'
+import BSDatableMain from './BSDatableMain'
 
 const BSDataTable = () => {
   const [isToggled, setIsToggled] = useState(false);
@@ -15,11 +15,8 @@ const BSDataTable = () => {
       <MainWrapper isToggled={isToggled}>
         <SideBar />
         <div id="page-content-wrapper">
-          <Header onToggle={handleToggle} title ={"Data Table"} />
-
-          <DataMainSection />      
-          
-
+          <Header onToggle={handleToggle} title={"Data Table"} />
+          <BSDatableMain />
         </div>
 
       </MainWrapper>

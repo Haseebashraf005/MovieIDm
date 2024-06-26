@@ -1,17 +1,12 @@
 import React from 'react'
 
-const BSDatableMain = () => {
-
-
-
-
-    
+const BSDatableMain = () => {    
   return (
 
     <div className="container-fluid">
 
 
-        <div class="row">
+<div class="row">
               <div class="col-md-12">
                 <div class="card">
                   <div class="card-header">
@@ -214,7 +209,7 @@ const BSDatableMain = () => {
               </div>
 
 
-            </div>   
+            </div> 
 
 
     </div>
