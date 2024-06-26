@@ -1,3 +1,9 @@
+/* In your App.css or index.css file */
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+
 :root {
   --main-bg-color: #009d63;
   --main-text-color: #009d63;
