@@ -4,14 +4,15 @@ import { NavLink } from 'react-router-dom';
 
 const SideBar = () => {
   return (
-    <div className="bg-white" id="sidebar-wrapper">
-      <div className="sidebar-heading text-center py-4 primary-text fs-4 fw-bold text-uppercase border-bottom">
+    <div className="bg-white" id="sidebar-wrapper" >
+      <div className="sidebar-heading text-center py-4 primary-text fs-4 fw-bold text-uppercase border-bottom" >
         <i className="fas fa-user-secret me-2"></i>API 
       </div>
-      <div className="list-group list-group-flush my-3">
+      <div className="list-group list-group-flush my-3" >
         <NavLink
           to="/"
           className="list-group-item list-group-item-action bg-transparent second-text fw-bold"
+          
         >
           <i className="fas fa-tachometer-alt me-2"></i>
           Home

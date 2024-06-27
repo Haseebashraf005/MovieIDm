@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import MainWrapper from '../../layout/MainWrapper'
 import SideBar from '../../layout/SideBar'
 import Header from '../../layout/Header'
+import Map from '../../layout/Map'
 
 const Home = () => {
   const [isToggled, setIsToggled] = useState(false);
@@ -16,6 +17,7 @@ const Home = () => {
         <div id="page-content-wrapper">
           <Header onToggle={handleToggle} title={"Home"} />
 
+          <Map/>
           
 
         </div>
