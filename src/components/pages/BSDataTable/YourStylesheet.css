@@ -1,0 +1,13 @@
+.sticky-header {
+    position: sticky;
+    top: 0;
+    background-color: white; /* Optional: ensure header is not transparent */
+    z-index: 1; /* Ensure it stays above other content */
+    box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.4); /* Optional: add a shadow to distinguish the header */
+  }
+  
+  .table-wrapper {
+    overflow-y: auto;
+    max-height: 700px; /* Adjust this value as needed */
+  }
+  
