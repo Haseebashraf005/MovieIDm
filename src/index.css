@@ -112,3 +112,18 @@ body {
   
   color: rgba(17, 15, 15, 0.617);
 }
+
+
+
+
+
+
+
+
+
+/* ********************************************************* */
+/* ******************for leaaf let css************************** */
+
+/* index.css or App.css */
+@import url('https://unpkg.com/leaflet@1.7.1/dist/leaflet.css');
+ 

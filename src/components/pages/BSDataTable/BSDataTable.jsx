@@ -15,7 +15,7 @@ const BSDataTable = () => {
       <MainWrapper isToggled={isToggled}>
         <SideBar />
         <div id="page-content-wrapper">
-          <Header onToggle={handleToggle} title={"Data Table"} />
+          <Header onToggle={handleToggle} title={"BS Data Table"} />
           <BSDatableMain />
         </div>
 
