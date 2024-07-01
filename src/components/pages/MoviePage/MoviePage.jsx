@@ -17,8 +17,10 @@ const MoviePage = () => {
         <div id="page-content-wrapper">
           <Header onToggle={handleToggle} title={"MoviePage"} />
 
+        {/* page main section start */}
         
-          
+          {/* page main section end */}
+
 
         </div>
 

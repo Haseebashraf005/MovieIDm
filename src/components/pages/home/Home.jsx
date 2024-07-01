@@ -17,8 +17,11 @@ const Home = () => {
         <div id="page-content-wrapper">
           <Header onToggle={handleToggle} title={"Home"} />
 
+          {/* page main section start */}
+
           <Map/>
           
+          {/* page main section end */}
 
         </div>
 
