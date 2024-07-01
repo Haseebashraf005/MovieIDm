@@ -33,10 +33,15 @@ const SideBar = () => {
           <i className="fas fa-chart-line me-2"></i>
           BS DataTables
         </NavLink>
+
+        <NavLink
+          to="/movie-rating"
+          className="list-group-item list-group-item-action bg-transparent second-text fw-bold"
+        >
+          <i className="fas fa-shopping-cart me-2"></i>
+          Movie Rating
+        </NavLink>
         
-        <a href="#" className="list-group-item list-group-item-action bg-transparent second-text fw-bold">
-          <i className="fas fa-paperclip me-2"></i>Reports
-        </a>
         <a href="#" className="list-group-item list-group-item-action bg-transparent second-text fw-bold">
           <i className="fas fa-shopping-cart me-2"></i>Store Mng
         </a>
